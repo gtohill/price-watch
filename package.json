@@ -1,0 +1,15 @@
+{
+  "name": "price-watch-test",
+  "version": "1.0.0",
+  "description": "## What it does",
+  "main": "background.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.2",
+    "webpack-cli": "^3.2.3"
+  }
+}

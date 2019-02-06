@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+<body>
+  <div id="popup-success" >
+    <button style="color:white; background-color: black;">ADD PRODUCT</button>
+  </div>
+  <!--login form - hide until user click button and is not logged in, the display -->
+  <div id="login-form">
+     <div class="section container">
+      <form id="myForm">
+        Username: <input type="text" name="username">
+        Password: <input type="text" name="password">
+        <input type="submit" value="Submit">
+      </form> 
+    </div>
+  </div>  
+  <!-- hide until user clicks button. If user is logged in keep hidden -->
+  <div id="login">
+    <a href="http://localhost:5000/login">Login</a>
+  </div>
+
+  <script src="../background.js"></script>
+</body>
+
+</html>
